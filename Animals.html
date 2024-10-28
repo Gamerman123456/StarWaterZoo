@@ -1,6 +1,7 @@
 <!DOCTYPE html>
     <html lang = "en">
         <head>
+            <link rel="stylesheet" href="CSS/style.css">
              <!-- Google tag (gtag.js) -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-LF3J3457HT"></script>
             <script>
@@ -20,91 +21,123 @@
             <header>
                 <section>
                     <h1>
-                        <a href ="index.html">Star Water Zoo</a><img src = "Images/Frog_Logo.png" alt = "Frog_Logo">
-                        <a href ="Animals.html"><img src = "Images/Tiger_Animal_Button.png" alt = "Tiger_Logo">Animals</a>
-                        <a href ="Suggestions.html"><img src = "Images/Suggestions_button.png" alt = "Suggestions">Suggestions</a>
-                        <a href ="https://x.com"><img src = "Images/icon _twitter_.png" alt = "twitter"></a>
-                        <a href ="https://Facebook.com"><img src = "Images/facebook icon_.png" alt = "facebook"></a>
-                        <a href ="https://instagram.com"><img src = "Images/instagram icon_.png" alt = "instagram"></a>
+                        <a id="logo" href ="index.html"><img src = "Images/Frog_Logo.png" alt = "Frog_Logo">Star Water Zoo</a>
+                        <div class="Animals">
+                        <a class="ani"href ="Animals.html">Animals</a>
+                        <img class="aniimg"src = "Images/Tiger_Animal_Button.png" alt = "Tiger_Logo">
+                        </div>
+                        <div class="Suggestions">
+                            <a class= "sug" href ="Suggestions.html">Suggestions</a>
+                            <img class ="sugimg" src = "Images/Suggestions_button.png" alt = "Suggestions">
+                        </div>
+                        <div class="sociallinks">
+                            <a class="sociallinks1"href ="https://x.com"><img src = "Images/icon _twitter_.png" alt = "twitter"></a>
+                            <a class="sociallinks2"href ="https://Facebook.com"><img src = "Images/facebook icon_.png" alt = "facebook"></a>
+                            <a class="sociallinks3"href ="https://instagram.com"><img src = "Images/instagram icon_.png" alt = "instagram"></a>
+                        </div>
+                        <div class="Line1"></div>
+                        <div class="Line2"></div>
                     </h1>
                 </section>
             </header>
             <main>
-                <section>
+                <section id ="animalheader">
                     <h1>Mammals</h1>
                 </section>
-                <div>
-                    <h2>Henry</h2>
-                    <img src = "Images/Henry.png" alt ="Henry_Rino">
-                    <h3>About Henry</h3>
-                    <p>Henry is a fun loving Rino and a integral part of the star water zoo. He has been here for 15 years
+                <div id = "Animal1">
+                    <div class = "animal">
+                        <h2 class>Henry</h2>
+                        <img src = "Images/Henry.png" alt ="Henry_Rino" height="640" width="900">
+                    </div>
+                    <div class="animal">
+                        <h3>About Henry</h3>
+                        <p>Henry is a fun loving Rino and a integral part of the star water zoo. He has been here for 15 years
                         after he was rescued from the African safari. His favorite food is bananas.
-                    </p>
-                    <h2>Lanny</h2>
-                    <img src = "Images/Lanny.png" alt ="lanny_lion">
-                    <h3>About Lanny</h3>
-                    <p>Lanny is a very protective lioness. She is very protective of the other Lions that live in the exibit with her, espically her own
-                        cubs. She has been here for 7 years and loves to lay out on the rocks in her exibit. </p>
+                        <h3>About Lanny</h3>
+                        <p>Lanny is a very protective lioness. She is very protective of the other Lions that live in the exibit with her, espically her own
+                            cubs. She has been here for 7 years and loves to lay out on the rocks in her exibit. </p>
+                    </div>
+                    <div class = "animal">
+                        <h2>Lanny</h2>
+                        <img src = "Images/Lanny.png" alt ="lanny_lion" height="640" width="900">
+                    </div>
                 </div>
-                <section>
+                <section id ="animalheader">
                     <h1>Fish</h1>
                 </section>
-                <div>
-                    <h2>Leo</h2>
-                    <img src = "Images/Leo.png" alt="Leo_Lionfish">
-                    <h3>About Leo</h3>
-                    <p>Leo is a highly posionus fish, but he still loves to have fun. He loves to push around little plastic balls that are put into his
-                        exibit and gets upset when they are not there for him to play with. He shows that even though hes mean on the outside, hes nice
-                        on the inside.
-                    </p>
-                    <h2>Nemo</h2>
-                    <img src="Images/Nemo.png" alt="Nemo_ClownFish">
-                    <h3>About Nemo</h3>
-                    <p>Nemo is a Clownfish that is named after the Clownfish in the movie Nemo. Just like the one in the movie, one of his fins has been hurt
-                        which is why he is here in the aquarium. Even though he is hurt, he keeps swimming like nothing is wrong.
-                    </p>
+                <div id = "Animal1">
+                    <div class = "animal">
+                        <h2>Leo</h2>
+                        <img src = "Images/Leo.png" alt="Leo_Lionfish" height="640" width="900">
+                        <h3>About Leo</h3>
+                    </div>
+                    <div class = "animal">
+                        <h3>About Leo</h3>
+                        <p>Leo is a highly posionus fish, but he still loves to have fun. He loves to push around little plastic balls that are put into his
+                            exibit and gets upset when they are not there for him to play with. He shows that even though hes mean on the outside, hes nice
+                            on the inside.
+                        </p>
+                        <h3>About Nemo</h3>
+                        <p>Nemo is a Clownfish that is named after the Clownfish in the movie Nemo. Just like the one in the movie, one of his fins has been hurt
+                            which is why he is here in the aquarium. Even though he is hurt, he keeps swimming like nothing is wrong.
+                        </p>
+                    </div>
+                    <div class = "animal">
+                        <h2>Nemo</h2>
+                        <img src="Images/Nemo.png" alt="Nemo_ClownFish" height="640" width="900">
+                    </div>
                 </div>
-                <section>
+                <section id ="animalheader">
                     <h1>Reptiles</h1>
                 </section>
-                <div>
-                    <h2>Juliet</h2>
-                    <img src = "Images/Juliet.png" alt="Juliet_Iguana">
-                    <h3>About Juliet</h3>
-                    <p>Juliet is an Iguana who loves to swim. She can always be seen swimming in her pool. She also loves to bask in the rocks in the sun
-                        which is the other place you will mainly see her.
-                    </p>
-                    <h2>Donna</h2>
-                    <img src="Images/Donna.png" alt="Donna_KingCobra">
-                    <h3>About Donna</h3>
-                    <p>Donna is one of our new exhibits. She has the ability to spit poison and sometimes she will spit it at the glass. This makes her very dangerous,
-                        but she has begun to warm up to people more.
-                    </p>
+                <div id = "Animal1">
+                    <div class = "animal">
+                        <h2>Juliet</h2>
+                        <img src = "Images/Juliet.png" alt="Juliet_Iguana" height="640" width="900">
+                    </div>
+                    <div class = "animal">
+                        <h3>About Juliet</h3>
+                        <p>Juliet is an Iguana who loves to swim. She can always be seen swimming in her pool. She also loves to bask in the rocks in the sun
+                            which is the other place you will mainly see her.
+                        <h3>About Donna</h3>
+                        <p>Donna is one of our new exhibits. She has the ability to spit poison and sometimes she will spit it at the glass. This makes her very dangerous,
+                            but she has begun to warm up to people more.
+                        </p>
+                    </div>
+                    <div class = "animal">
+                        <h2>Donna</h2>
+                        <img src="Images/Donna.png" alt="Donna_KingCobra" height="640" width="900">
+                    </div>
                 </div>
-                <section>
+                <section id ="animalheader">
                     <h1>Birds</h1>
                 </section>
-                <div>
-                    <h2>Freddrick</h2>
-                    <img src = "Images/Tocan.png" alt="Freddrick_Tocan">
-                    <h3>About Freddrick</h3>
-                    <p>Freddrick is a really silly tocan. He loves to fly around and hang upside down from his branches. He is always calling out the people that walk by
-                        and flashing his brightly colored beak at them. 
-                    </p>
-                    <h2>Griffith</h2>
-                    <img src="Images/Griffith.png" alt="Griffith_Hawk">
-                    <h3>About Griffith</h3>
-                    <p>Griffith is one of the odd ones at the zoo. He is both very nice but very mean all at the same time. He had his wings clipped long ago before he was at the zoo,
-                        you can see that he still longs for the sky.
-                    </p>
+                <div id = "Animal1">
+                    <div class = "animal">
+                        <h2>Freddrick</h2>
+                        <img src = "Images/Tocan.png" alt="Freddrick_Tocan" height="640" width="900"> 
+                        </p>
+                    </div>
+                    <div class = "animal">
+                        <h3>About Freddrick</h3>
+                        <p>Freddrick is a really silly tocan. He loves to fly around and hang upside down from his branches. He is always calling out the people that walk by
+                            and flashing his brightly colored beak at them.
+                        <p>Griffith is one of the odd ones at the zoo. He is both very nice but very mean all at the same time. He had his wings clipped long ago before he was at the zoo,
+                            you can see that he still longs for the sky.
+                        </p>
+                    </div>
+                    <div class = "animal">
+                        <h2>Griffith</h2>
+                        <img src="Images/Griffith.png" alt="Griffith_Hawk" height="640" width="900">
+                    </div>
                 </div>
             </main>
             <footer>
                 <h3>Located at 1000 Bluebeard Rd. Columbia, SC</h3>
                 <h6>Copyright held by Star Water Zoo INC.</h6>
-                <a href ="https://x.com"><img src = "Images/icon _twitter_.png" alt = "twitter"></a>
-                <a href ="https://Facebook.com"><img src = "Images/facebook icon_.png" alt = "facebook"></a>
-                <a href ="https://instagram.com"><img src = "Images/instagram icon_.png" alt = "instagram"></a>
+                <a class = "sociallinks4" href ="https://x.com"><img src = "Images/icon _twitter_.png" alt = "twitter"></a>
+                <a class = "sociallinks5" href ="https://Facebook.com"><img src = "Images/facebook icon_.png" alt = "facebook"></a>
+                <a class = "sociallinks6" href ="https://instagram.com"><img src = "Images/instagram icon_.png" alt = "instagram"></a>
             </footer>
 
         </body>

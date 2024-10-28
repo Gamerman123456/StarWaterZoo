@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-    <html lang = "en">
+<html lang = "en">
         <head>
+            <link rel="stylesheet" href="CSS/style.css">
              <!-- Google tag (gtag.js) -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=G-LF3J3457HT"></script>
             <script>
@@ -20,28 +20,40 @@
             <header>
                 <section>
                     <h1>
-                        <a href ="index.html">Star Water Zoo</a><img src = "Images/Frog_Logo.png" alt = "Frog_Logo">
-                        <a href ="Animals.html"><img src = "Images/Tiger_Animal_Button.png" alt = "Tiger_Logo">Animals</a>
-                        <a href ="Suggestions.html"><img src = "Images/Suggestions_button.png" alt = "Suggestions">Suggestions</a>
-                        <a href ="https://x.com"><img src = "Images/icon _twitter_.png" alt = "twitter"></a>
-                        <a href ="https://Facebook.com"><img src = "Images/facebook icon_.png" alt = "facebook"></a>
-                        <a href ="https://instagram.com"><img src = "Images/instagram icon_.png" alt = "instagram"></a>
+                        <a id="logo" href ="index.html"><img src = "Images/Frog_Logo.png" alt = "Frog_Logo">Star Water Zoo</a>
+                        <div class="Animals">
+                        <a class="ani"href ="Animals.html">Animals</a>
+                        <img class="aniimg"src = "Images/Tiger_Animal_Button.png" alt = "Tiger_Logo">
+                        </div>
+                        <div class="Suggestions">
+                            <a class= "sug" href ="Suggestions.html">Suggestions</a>
+                            <img class ="sugimg" src = "Images/Suggestions_button.png" alt = "Suggestions">
+                        </div>
+                        <div class="sociallinks">
+                            <a class="sociallinks1"href ="https://x.com"><img src = "Images/icon _twitter_.png" alt = "twitter"></a>
+                            <a class="sociallinks2"href ="https://Facebook.com"><img src = "Images/facebook icon_.png" alt = "facebook"></a>
+                            <a class="sociallinks3"href ="https://instagram.com"><img src = "Images/instagram icon_.png" alt = "instagram"></a>
+                        </div>
+                        <div class="Line1"></div>
+                        <div class="Line2"></div>
                     </h1>
                 </section>
             </header>
             <main>
                 <h1>Let us know that you think!</h1>
-                <label for="Name">Name:</label>
-                <input type="text" id ="name" name="name" required><br>
-                <label for="Email">Email:</label>
-                <input type="text" id ="Email" name="Email" required><br>
-                <p>Suggestion or Complaint:</p>
-                <input type ="radio" id ="Suggestion" name ="S or C" value = "Suggestion">
-                <label for="Suggestion">Suggetion</label>
-                <input type ="radio" id ="Complaint" name ="S or C" value = "Complaint">
-                <label for="Complaint">Complaint</label><br>
-                <Label for ="Info">Info:</Label>
-                <textarea id="info" name="info" rows="5" cols="30"></textarea>
+                <form>
+                    <label for="Name">Name:</label>
+                    <input type="text" id ="name" name="name" required><br>
+                    <label for="Email">Email:</label>
+                    <input type="text" id ="Email" name="Email" required><br>
+                    <p>Suggestion or Complaint:</p>
+                    <input type ="radio" id ="Suggestion" name ="S or C" value = "Suggestion">
+                    <label for="Suggestion">Suggetion</label>
+                    <input type ="radio" id ="Complaint" name ="S or C" value = "Complaint">
+                    <label for="Complaint">Complaint</label><br>
+                    <Label for ="Info">Info:</Label>
+                    <textarea id="info" name="info" rows="5" cols="30"></textarea>
+                </form>
             </main>
             <footer>
                 <h3>Located at 1000 Bluebeard Rd. Columbia, SC</h3>
