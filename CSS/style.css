@@ -49,6 +49,8 @@ header{
     margin: 10px;
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: -10px
 }
 /*suggestion button*/
 .Suggestions{
@@ -61,6 +63,7 @@ header{
     flex-direction: column;
     width: 120px;
     position: relative;
+    top: -10px;
     Left: 7px
 }
 /*links*/
@@ -79,7 +82,8 @@ header{
     order:6 ;
     margin: 10px;
     position: relative;
-    Left: 10px
+    Left: 10px;
+    top: -10px
 }
 /*header flexbox materials*/
 
