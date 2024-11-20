@@ -140,7 +140,7 @@ body{
 }
 #Animal1_ani{
     background-color:#002f6c;
-    border-radius: #002f6c solid 5px ;
+    border-radius:5px ;
     display: grid;
     margin: 50px;
     position: relative;
